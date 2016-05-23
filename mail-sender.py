@@ -2,9 +2,9 @@ import smtplib as x
 
 y=x.starttls()
 
-y.login("akpinarsuleymen@gmail.com","password")
-hedef("s.akpinar.yazilim@gmail.com")
-mesaj="text mesaji"
-y.sendmail("Kimden ",hedef,mesaj)
+y.login("your@mail.adress","password")
+hedef("target@mail.adress")
+mesaj="text"
+y.sendmail("By ",hedef,mesaj)
 y.quit()
-print("E-posta Gonderildi")
+print("sending e mail is ok")
