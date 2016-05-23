@@ -1,6 +1,6 @@
 import os
 try:
-    masa = os.path.expanduser("~/Masaüstü")          # Set the variable home by expanding the users set home directory
+    masa = os.path.expanduser("~/Masaüstü")         
     print (masa)
     if not os.path.exists(masa+'/dizin'):
         os.makedirs(masa+'/dizin')
